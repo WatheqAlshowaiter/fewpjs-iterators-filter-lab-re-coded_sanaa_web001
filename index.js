@@ -3,6 +3,8 @@ let findMatching = function (arrayString, name) {
 };
 
 
-let fuzzyMatch = function(arrayString, firstLetter){
-  return arrayString.filter((e)=> e.charAt(0).toLowerCase() === firstLetter.toLowerCase());
-}
+let fuzzyMatch = function (arrayString, firstLetter) {
+  return arrayString.filter(
+    (e) => e.charAt(0).toLowerCase() === firstLetter.toLowerCase()
+  );
+};
